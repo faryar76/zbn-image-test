@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export && next-export-optimize-images"
   },
   "dependencies": {
     "next": "12.2.0",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "eslint": "8.18.0",
-    "eslint-config-next": "12.2.0"
+    "eslint-config-next": "12.2.0",
+    "next-export-optimize-images": "^1.5.2"
   }
 }
